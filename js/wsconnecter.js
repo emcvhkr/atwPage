@@ -2,7 +2,7 @@ function WebSocketConnectMethod( config ) {
 	
 	var ProductId = "278578838";
 	var ApiKey = "112466dbae1b448f9838b707dc4598af";
-	var Uri = "wss://asr.dui.ai/runtime/v2/recognize?" +
+	var Uri = "ws://asr.dui.ai/runtime/v2/recognize?" +
 			  "productId=" + ProductId + "&" +
               "apikey=" + ApiKey + "&" +
               "enableNumberConvert=false" + "&" +
